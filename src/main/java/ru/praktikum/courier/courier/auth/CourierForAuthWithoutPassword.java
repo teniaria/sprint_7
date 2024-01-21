@@ -1,4 +1,4 @@
-package ru.praktikum.courier.courierAuth;
+package ru.praktikum.courier.courier.auth;
 
 import lombok.*;
 import ru.praktikum.courier.Courier;

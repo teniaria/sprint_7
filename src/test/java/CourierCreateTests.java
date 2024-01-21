@@ -18,10 +18,8 @@ public class CourierCreateTests extends BaseTest {
     private static final String FIELD_OK = "ok";
     private static final String MESSAGE_EXISTING_LOGIN = "Этот логин уже используется. Попробуйте другой.";
     private static final String MESSAGE_WITHOUT_REQUIRED_FIELDS = "Недостаточно данных для создания учетной записи";
-
-
-    CourierGenerator generator = new CourierGenerator();
-    CourierClient courierClient = new CourierClient();
+    private final CourierGenerator generator = new CourierGenerator();
+    private final CourierClient courierClient = new CourierClient();
 
 
     @Before

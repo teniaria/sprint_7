@@ -5,9 +5,9 @@ import org.apache.http.HttpStatus;
 import org.junit.Before;
 import org.junit.Test;
 import ru.praktikum.courier.*;
-import ru.praktikum.courier.courierAuth.CourierForAuth;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutLogin;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutPassword;
+import ru.praktikum.courier.courier.auth.CourierForAuth;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutLogin;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutPassword;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.Matchers.greaterThan;

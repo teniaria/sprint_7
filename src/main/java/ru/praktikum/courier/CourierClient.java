@@ -3,9 +3,9 @@ package ru.praktikum.courier;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import ru.praktikum.constant.Client;
-import ru.praktikum.courier.courierAuth.CourierForAuth;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutLogin;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutPassword;
+import ru.praktikum.courier.courier.auth.CourierForAuth;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutLogin;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutPassword;
 
 public class CourierClient extends Client {
         private final static String ROOT = "/courier";

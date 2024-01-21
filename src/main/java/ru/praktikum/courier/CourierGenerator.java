@@ -1,9 +1,9 @@
 package ru.praktikum.courier;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import ru.praktikum.courier.courierAuth.CourierForAuth;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutLogin;
-import ru.praktikum.courier.courierAuth.CourierForAuthWithoutPassword;
+import ru.praktikum.courier.courier.auth.CourierForAuth;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutLogin;
+import ru.praktikum.courier.courier.auth.CourierForAuthWithoutPassword;
 
 public class CourierGenerator {
     private final String password = "password";

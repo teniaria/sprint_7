@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class OrderListTest {
     public static final String FIELD_ORDERS = "orders";
-    OrderClient orderClient = new OrderClient();
+    private final OrderClient orderClient = new OrderClient();
 
     @Test
     @DisplayName("Список заказов")
